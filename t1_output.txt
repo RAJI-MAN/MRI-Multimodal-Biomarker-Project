@@ -1,0 +1,26 @@
+===== DATASET =====
+   global_mean   global_std   slice_mean  hippocampus_mean  csf_ratio  wm_ratio  age  label
+0   616.980356  1469.517552  1183.376164       2438.242247   0.819322  0.131049   78      1
+1   672.342076  1696.588332  1361.631024       1352.223730   0.811049  0.138573   83      1
+2   599.957653  1451.221876  1146.710590       1524.932107   0.800695  0.131847   68      0
+3   543.059989  1254.288677  1032.020164       1664.914089   0.814011  0.125171   68      0
+4   864.177140  2100.803251  1595.973519       2326.905047   0.786165  0.156851   52      0
+
+===== LABEL DISTRIBUTION =====
+label
+0    3
+1    2
+Name: count, dtype: int64
+
+===== CROSS VALIDATION =====
+Scores: [0.33333333 0.5       ]
+Mean: 0.41666666666666663
+
+===== FEATURE IMPORTANCE =====
+global_mean: 0.1585
+global_std: 0.1301
+slice_mean: 0.1260
+hippocampus_mean: 0.1413
+csf_ratio: 0.1485
+wm_ratio: 0.0940
+age: 0.2016
