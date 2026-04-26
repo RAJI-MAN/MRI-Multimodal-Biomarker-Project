@@ -62,10 +62,3 @@ MRI → Preprocessing → Feature Extraction → Machine Learning → Interpreta
 * Clinical data integration
 * Explainable AI (SHAP)
 
----
-
-## ▶️ Run
-
-```bash
-python analysis/multimodal_pipeline.py
-```
